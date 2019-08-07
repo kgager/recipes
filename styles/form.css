@@ -1,0 +1,16 @@
+body{
+  background-image: radial-gradient(blue,red);
+  height: 100vh;
+  text-align: center;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: arial;
+    text-shadow: 2px 2px 2px black;
+}
+#kev{
+  text-align: right;
+  font-size: 5px;
+}

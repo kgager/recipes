@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Recipe</title>
+  <link rel="stylesheet" href="/styles/recipe.css">
+</head>
+<body>
+  <p id = "here">Here are your recipes: </p>
+  <section>
+    {% for result in results.results %}
+        <section class="result">
+          <div><img id = foodImages src="{{ result.thumbnail }}"></div>
+          <div id = foodName>{{ result.title }}</div>
+          <div id = ingredients>{{ result.ingredients }}</div>
+        </section>
+      {% endfor %}
+  </section>
+  <p><a href="/">Search Again</a></p>
+</body>
+</html>

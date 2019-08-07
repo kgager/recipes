@@ -1,0 +1,33 @@
+body{
+  background-image: radial-gradient(red,blue);
+  height: 180vh;
+}
+#here{
+  color:white;
+  font-family: serif;
+  font-size: 30px;
+}
+section{
+  text-align: left;
+}
+a{
+  color: yellow;
+  text-align: left;
+}
+#ingredients{
+    color: gold;
+    text-decoration-style: wavy;
+}
+#foodName{
+  color:darkGoldenRod;
+  font-size: 18px;
+  font-weight: bold;
+}
+a:hover{
+  color:darkGoldenRod;
+}
+
+#foodImages {
+  border: 1.5px solid red;
+  border-radius: 22px;
+}
