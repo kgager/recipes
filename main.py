@@ -25,8 +25,7 @@ class RecipeDisplayHandler(webapp2.RequestHandler):
 
         template = jinja_env.get_template('templates/recipe.html')
         self.response.write(template.render({
-            'results': results,
-            'query': query
+            'results': results
         }))
 
 app = webapp2.WSGIApplication([

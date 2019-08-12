@@ -1,27 +1,53 @@
 body{
   background-image: radial-gradient(red,blue);
   height: 180vh;
+  display:grid;
+
 }
 #here{
   color:white;
   font-family: serif;
-  font-size: 30px;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-section{
-  text-align: left;
+
+#text {
+  display: flex;
+  flex-direction: column;
 }
+
+.result {
+  display:flex;
+  flex-direction:row;
+  width: 80%;
+}
+
 a{
   color: yellow;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 #ingredients{
     color: gold;
-    text-decoration-style: wavy;
+    font-style: italic;
+    font-size: 18px;
 }
+
 #foodName{
   color:darkGoldenRod;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
+}
+.result {
+  background-color:rgba(255,0,0,0.3);
+  border-radius: 2px;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
 }
 a:hover{
   color:darkGoldenRod;
@@ -30,4 +56,5 @@ a:hover{
 #foodImages {
   border: 1.5px solid red;
   border-radius: 22px;
+  margin-right: 10px;
 }
